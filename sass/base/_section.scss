@@ -1,0 +1,37 @@
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.hero-section {
+    background-color: var(--background-dark-color);
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-features,
+.section-team,
+.section-clients,
+.section-works {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-team {
+    background-color: 
+    var(--background-even-section);
+}

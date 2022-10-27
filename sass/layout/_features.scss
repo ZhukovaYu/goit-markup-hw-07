@@ -1,0 +1,40 @@
+.features-list {
+    display: flex;
+}
+
+.features-list__item {
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.icon-antena,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: var(--background-even-section);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.feature-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}

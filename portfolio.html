@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,23 +21,25 @@
             <nav class="head-nav">
                 <a href="./index.html" class="logo-text-head"> <span class="logo-part">Web</span>Studio</a>
                 <ul class="main-nav-list list">
-                    <li class="nav-item "><a href="./index.html" class="nav-link" lang="uk"> Студія </a></li>
-                    <li class="nav-item"><a href="./portfolio.html" class="nav-link current-link" lang="uk"> Портфоліо </a></li>
-                    <li class="nav-item"><a href="" class="nav-link" lang="uk"> Контакти </a></li>
+                    <li class="main-nav-list__item"><a href="./index.html" class="nav-link " lang="uk"> Студія
+                        </a></li>
+                    <li class="main-nav-list__item"><a href="./portfolio.html" class="nav-link current-link" lang="uk"> Портфоліо </a>
+                    </li>
+                    <li class="main-nav-list__item"><a href="" class="nav-link" lang="uk"> Контакти </a></li>
                 </ul>
             </nav>
-            <ul class="list contacts-list">
-                <li class="contacts-header-item">
+            <ul class="list header-contacts-list">
+                <li class="header-contacts-list__item">
                     <a href="mailto:example@gmail.com" class="contacts-header-link">
                         <svg class="header-icon-mail">
-                        <use href="./images/sprite.svg#icon-envelope" class="symbol"></use>
+                            <use href="./images/sprite.svg#icon-envelope" class="symbol"></use>
                         </svg>
                         info@devstudio.com </a>
                 </li>
                 <li class="contacts-header-item">
                     <a href="tel:+380961111111" class="contacts-header-link">
                         <svg class="header-icon-phone">
-                        <use href="./images/sprite.svg#icon-smartphone" class="symbol"></use>
+                            <use href="./images/sprite.svg#icon-smartphone" class="symbol"></use>
                         </svg>
                         +38 096 111 11 11 </a>
                 </li>
@@ -58,148 +60,148 @@
         <li class="filter-list-item"> <button type="button" class="filter"> Маркетинг</button></li>
     </ul>
 
-    <ul class="work-sample-list list">
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio1.jpg"  class="work-sample-img"
+    <ul class="work-sample__list list">
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio1.jpg"  class="work-sample__img"
         alt="приклад Веб-сайту " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Технокряк </h2>
-            <p class="work-type"> Веб-сайт</p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Технокряк </h2>
+            <p class="work-sample__type"> Веб-сайт</p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio2.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio2.jpg" class="work-sample__img"
         alt="приклад постер " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Постер <span lang="en"> New Orlean vs Golden Star </span></h2>
-            <p class="work-type"> Дизайн </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Постер <span lang="en"> New Orlean vs Golden Star </span></h2>
+            <p class="work-sample__type"> Дизайн </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio3.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio3.jpg" class="work-sample__img"
         alt="приклад Додаток 1" width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Ресторан <span lang="en"> Seafood </span></h2>
-            <p class="work-type"> Додаток </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Ресторан <span lang="en"> Seafood </span></h2>
+            <p class="work-sample__type"> Додаток </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay"> 
-        <img src="./images/portfolio4.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay"> 
+        <img src="./images/portfolio4.jpg" class="work-sample__img"
         alt="приклад Маркетинг " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Проєкт <span lang="en">Prime </span> </h2>
-            <p class="work-type"> Маркетинг </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Проєкт <span lang="en">Prime </span> </h2>
+            <p class="work-sample__type"> Маркетинг </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card"> 
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio5.jpg" class="work-sample-img"
+    <li class="work-sample__card"> 
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio5.jpg" class="work-sample__img"
         alt="приклад  Додаток 2 " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Проєкт <span lang="en"> Boxes </span> </h2>
-            <p class="work-type"> Додаток </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Проєкт <span lang="en"> Boxes </span> </h2>
+            <p class="work-sample__type"> Додаток </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio6.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio6.jpg" class="work-sample__img"
         alt="приклад  Веб-сайт2 " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> <span lang="en">Inspiration has no Borders </span> </h2>
-            <p class="work-type"> Веб-сайт </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> <span lang="en">Inspiration has no Borders </span> </h2>
+            <p class="work-sample__type"> Веб-сайт </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio7.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio7.jpg" class="work-sample__img"
         alt="приклад Дизайн " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Видання <span lang="en"> Limited Edition </span> </h2>
-            <p class="work-type"> Дизайн </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Видання <span lang="en"> Limited Edition </span> </h2>
+            <p class="work-sample__type"> Дизайн </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay"> 
-        <img src="./images/portfolio8.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay"> 
+        <img src="./images/portfolio8.jpg" class="work-sample__img"
         alt="приклад  Маркетинг " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> Проєкт LAB </h2>
-            <p class="work-type"> Маркетинг </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> Проєкт LAB </h2>
+            <p class="work-sample__type"> Маркетинг </p>
         </div>
         </a>
     </li>
-    <li class="work-sample-card">
-        <a href="" class="work-sample-link link">
-        <div class="work-sample-card-overlay">
-        <img src="./images/portfolio9.jpg" class="work-sample-img"
+    <li class="work-sample__card">
+        <a href="" class="work-sample__link link">
+        <div class="work-sample__card-overlay">
+        <img src="./images/portfolio9.jpg" class="work-sample__img"
         alt="приклад  Додаток3 " width="370" />
         <p class="overlay">
             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
             вичерпні відомості про компанію чи приватну особу.
         </p>
         </div>
-        <div class="work-sample-card-naming">
-            <h2 class="work-name"> <span lang="en"> Growing Business </span> </h2>
-            <p class="work-type"> Додаток </p>
+        <div class="work-sample__card-naming">
+            <h2 class="work-sample__name"> <span lang="en"> Growing Business </span> </h2>
+            <p class="work-sample__type"> Додаток </p>
         </div>
         </a>
     </li>
@@ -226,30 +228,30 @@
         <div>
             <p class="action-phrase"> приєднуйтесь </p>
             <ul class="footer-social-media list">
-                <li class="footer-social-media-item">
-                    <a href="" class="footer-media-link">
-                        <svg width="20px" height="20px" class="icon-item-footer">
+                <li class="footer-social-media__item">
+                    <a href="" class="footer-social-media__link">
+                        <svg width="20px" height="20px" class="social-media-icon-footer">
                             <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-social-media-item">
-                    <a href="" class="footer-media-link">
-                        <svg width="20px" height="20px" class="icon-item-footer">
+                <li class="footer-social-media__item">
+                    <a href="" class="footer-social-media__link">
+                        <svg width="20px" height="20px" class="social-media-icon-footer">
                             <use href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-social-media-item">
-                    <a href="" class="footer-media-link">
-                        <svg width="20px" height="20px" class="icon-item-footer">
+                <li class="footer-social-media__item">
+                    <a href="" class="footer-social-media__link">
+                        <svg width="20px" height="20px" class="social-media-icon-footer">
                             <use href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="footer-social-media-item">
-                    <a href="" class="footer-media-link">
-                        <svg width="20px" height="20px" class="icon-item-footer">
+                <li class="footer-social-media__item">
+                    <a href="" class="footer-social-media__link">
+                        <svg width="20px" height="20px" class="social-media-icon-footer">
                             <use href="./images/sprite.svg#icon-linkedin"></use>
                         </svg>
                     </a>
